@@ -1,8 +1,8 @@
 # 🎄 Advent of Code 2024 🎄
 
-![Advent of Code Animation](https://github.com/user-attachments/assets/975e51fd-5b8d-4bf9-9d8f-6c0baea5a80cw=100)
+<img src="https://github.com/user-attachments/assets/975e51fd-5b8d-4bf9-9d8f-6c0baea5a80c" alt="Advent of Code Animation" width="300">
 
-![fdfd](https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-tree.mp4)
+[Watch the animation](https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-tree.mp4)
 
 Welcome to my **Advent of Code 2024** solutions repository!  
 Advent of Code is an annual event featuring daily programming puzzles during December. Each day unlocks two puzzles that test problem-solving and algorithmic skills.
