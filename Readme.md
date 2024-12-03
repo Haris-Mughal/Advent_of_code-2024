@@ -1,6 +1,7 @@
 # 🎄 Advent of Code 2024 🎄
 
-![Advent of Code Animation](https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-tree.mp4)
+![Advent of Code Animation](https://github.com/user-attachments/assets/975e51fd-5b8d-4bf9-9d8f-6c0baea5a80c)
+
 
 
 Welcome to my **Advent of Code 2024** solutions repository!  
