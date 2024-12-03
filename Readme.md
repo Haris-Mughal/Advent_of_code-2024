@@ -2,7 +2,7 @@
 
 <img src="https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-santa-hat.gif?w=400" alt="AoC" align="right">
 
-
+<br />
 
 Welcome to my **Advent of Code 2024** solutions repository!  
 Advent of Code is an annual event featuring daily programming puzzles during December. Each day unlocks two puzzles that test problem-solving and algorithmic skills.
