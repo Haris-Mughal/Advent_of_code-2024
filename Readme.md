@@ -1,6 +1,6 @@
 # 🎄 Advent of Code 2024 🎄
 
-![Advent of Code Animation](https://images.app.goo.gl/nnJs5FkxxHRwuEr38)
+![Advent of Code Animation](![image](https://github.com/user-attachments/assets/228a61c3-73bd-4c0f-90c1-1cd0e773c5ab)
 
 
 Welcome to my **Advent of Code 2024** solutions repository!  
