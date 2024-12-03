@@ -1,6 +1,6 @@
 # 🎄 Advent of Code 2024 🎄
 
-<img src="https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-santa-hat.gif?w=400" alt="AoC" align="right">
+<img src="https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-santa-hat.gif?w=400" alt="AoC" align="">
 
 <br />
 
