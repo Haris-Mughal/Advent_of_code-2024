@@ -1,6 +1,6 @@
 # 🎄 Advent of Code 2024 🎄
 
-![Advent of Code Animation](https://user-images.githubusercontent.com/your-gif-link.gif)
+![Advent of Code Animation]((https://wp.technologyreview.com/wp-content/uploads/2021/12/aoc-santa-hat.gif?w=1177))
 
 
 Welcome to my **Advent of Code 2024** solutions repository!  
