@@ -17,15 +17,15 @@ While searching for the Chief at the Ceres monitoring station, an Elf requests y
 
     Example:
 
-    MMMSXXMASM
-    MSAMXMSMSA
-    AMXSXMAAMM
-    MSAMASMSMX
-    XMASAMXAMM
-    XXAMMXXAMA
-    SMSMSASXSS
-    SAXAMASAAA
-    MAMMMXMMMM
+    MMMSXXMASM <br/>
+    MSAMXMSMSA <br/>
+    AMXSXMAAMM <br/>
+    MSAMASMSMX <br/>
+    XMASAMXAMM <br/>
+    XXAMMXXAMA <br/>
+    SMSMSASXSS <br/>
+    SAXAMASAAA <br/>
+    MAMMMXMMMM <br/>
     MXMXAXMASX
 
 In this example, `XMAS` appears **18 times**.
@@ -43,16 +43,16 @@ In this example, `XMAS` appears **18 times**.
 
 Example:
 
-MMMS......
-.SAM.MSMS.
-M.M.M.AA..
-.SAMASMSM.
-M.M.M.....
-..........
-S.S.S.S.S.
-A.A.A.A...
-M.M.M.M.M.
-..........
+MMMS...... <br/>
+.SAM.MSMS. <br/>
+M.M.M.AA.. <br/>
+.SAMASMSM. <br/>
+M.M.M..... <br/>
+.......... <br/>
+S.S.S.S.S. <br/>
+A.A.A.A... <br/>
+M.M.M.M.M. <br/>
+.......... 
 
 In this example, an X-MAS pattern appears **9 times**.
 
