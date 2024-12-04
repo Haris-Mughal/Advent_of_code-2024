@@ -16,7 +16,8 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 1   | Historian Hysteria        | ✅ `1646452`    | ✅ `23609874`  | ⭐⭐        |
 | 2   | Red-Nosed Reports         | ✅ `411`        | ✅ `465`       | ⭐⭐        |
 | 3   | Mull It Over              | ✅ `170778545`  | ✅ `82868252`  | ⭐⭐        |
-| 2   | coming soon               | 🚧 In Progress  | 🚧 In Progress  | ❌         |
+| 4   | Ceres Search              | ✅ `2583`       | ✅ `1978`      | ⭐⭐        |
+| 5   | coming soon               | 🚧 In Progress  | 🚧 In Progress  | ❌         |
 | ... | _More Days Unlock Daily!_ | 🚧              | 🚧              | ❌         |
 
 ---
