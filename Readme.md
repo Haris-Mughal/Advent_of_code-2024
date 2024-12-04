@@ -29,3 +29,5 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
     git clone https://github.com/your-username/advent-of-code-2024.git
     cd advent-of-code-2024
     ```
+
+## Made with 🤍 by > **Haris Mughal**
