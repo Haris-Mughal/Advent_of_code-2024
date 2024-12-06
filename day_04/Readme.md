@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 4: Ceres Search 🎄
 
-![Advent of Code Animation](https://media.giphy.com/media/l0Hlx9AXqTz0C0pCg/giphy.gif)
+![Advent of Code Animation](https://media.giphy.com/media/12zV7u6Bh0vHpu/giphy.gif)
 
 ## Challenge Description
 

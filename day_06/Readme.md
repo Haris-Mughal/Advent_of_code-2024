@@ -1,7 +1,6 @@
 # 🎄 Advent of Code - Day 6: Guard Gallivant 🛡️
 
-![Advent of Code Animation](https://media.giphy.com/media/l0HlOvJ7yaacpuSas/giphy.gif)
-![Advent of Code Animation](https://media.giphy.com/media/xT0Gqe7UbE3yZ3tGoY/giphy.gif)
+![Advent of Code Animation](https://media.giphy.com/media/G6rr2Kx7OyCDSaTI3M/giphy.gif)
 
 ## Challenge Description
 

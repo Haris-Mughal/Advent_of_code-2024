@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 5: Print Queue 🖨️
 
-![Advent of Code Animation](https://media.giphy.com/media/3oEjHWL3aGS2VPYMR6/giphy.gif)
+![Advent of Code Animation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGMzb2JnbjIwa2tpODBiZTRvOXk3YTcxYjJkeHAwOHNlaXA2bWcwOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2JhwdnrGvfnoXrzi/giphy.gif)
 
 ## Challenge Description
 

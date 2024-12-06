@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 2: Red-Nosed Reports 🎄
 
-![Advent of Code Animation](https://media.giphy.com/media/l2SpQfeZUSg8sVdv2/giphy.gif)
+![Advent of Code Animation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTlhaHE5OGgxdHQwOG1pMjBreGNoNnJzbDB6cDQ2a25iYWg0eHgxdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3W2uhnQap3Nza/giphy.gif)
 
 ## Challenge Description
 
