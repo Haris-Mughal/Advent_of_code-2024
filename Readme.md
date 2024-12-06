@@ -13,13 +13,14 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 
 | Day | Puzzle Title              | Part 1 Solution | Part 2 Solution | Stars Earned |
 | --- | ------------------------- | --------------- | --------------- | ------------ |
-| 1   | Historian Hysteria        | ✅ `1646452`    | ✅ `23609874`  | ⭐⭐        |
-| 2   | Red-Nosed Reports         | ✅ `411`        | ✅ `465`       | ⭐⭐        |
-| 3   | Mull It Over              | ✅ `170778545`  | ✅ `82868252`  | ⭐⭐        |
-| 4   | Ceres Search              | ✅ `2583`       | ✅ `1978`      | ⭐⭐        |
-| 5   | Print Queue               | ✅ `6949`       | ✅ `4145`      | ⭐⭐        |
-| 6   | coming soon               | 🚧 In Progress  | 🚧 In Progress  | ❌         |
-| ... | _More Days Unlock Daily!_ | 🚧              | 🚧              | ❌         |
+| 1   | Historian Hysteria        | ✅ `1646452`    | ✅ `23609874`   | ⭐⭐         |
+| 2   | Red-Nosed Reports         | ✅ `411`        | ✅ `465`        | ⭐⭐         |
+| 3   | Mull It Over              | ✅ `170778545`  | ✅ `82868252`   | ⭐⭐         |
+| 4   | Ceres Search              | ✅ `2583`       | ✅ `1978`       | ⭐⭐         |
+| 5   | Print Queue               | ✅ `6949`       | ✅ `4145`       | ⭐⭐         |
+| 6   | Guard Gallivant           | ✅ `4778`       | ✅ `1618`       | ⭐⭐         |
+| 7   | coming soon               | 🚧 In Progress  | 🚧 In Progress  | ❌           |
+| ... | _More Days Unlock Daily!_ | 🚧              | 🚧              | ❌           |
 
 ---
 
