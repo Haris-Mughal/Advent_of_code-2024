@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 2: Red-Nosed Reports 🎄
 
-![Advent of Code Animation](https://user-images.githubusercontent.com/your-gif-link.gif)
+![Advent of Code Animation](https://media.giphy.com/media/l2SpQfeZUSg8sVdv2/giphy.gif)
 
 ## Challenge Description
 

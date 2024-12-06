@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 5: Print Queue 🖨️
 
-![Advent of Code Animation](https://user-images.githubusercontent.com/your-gif-link.gif)
+![Advent of Code Animation](https://media.giphy.com/media/3oEjHWL3aGS2VPYMR6/giphy.gif)
 
 ## Challenge Description
 

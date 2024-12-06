@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 3: Mull It Over 🎄
 
-![Advent of Code Animation](https://user-images.githubusercontent.com/your-gif-link.gif)
+![Advent of Code Animation](https://media.giphy.com/media/3o7aD9B5UnKbNnJVoE/giphy.gif)
 
 ## Challenge Description
 

@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 1: Historian Hysteria 🎄
 
-![Advent of Code Animation](https://user-images.githubusercontent.com/your-gif-link.gif)
+![Advent of Code Animation](https://media.giphy.com/media/xT9IgoFbBfbm1n4ESU/giphy.gif)
 
 ## Challenge Description
 

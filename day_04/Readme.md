@@ -1,6 +1,6 @@
 # 🎄 Advent of Code - Day 4: Ceres Search 🎄
 
-![Advent of Code Animation](https://user-images.githubusercontent.com/your-gif-link.gif)
+![Advent of Code Animation](https://media.giphy.com/media/l0Hlx9AXqTz0C0pCg/giphy.gif)
 
 ## Challenge Description
 
@@ -52,7 +52,7 @@ M.M.M..... <br/>
 S.S.S.S.S. <br/>
 A.A.A.A... <br/>
 M.M.M.M.M. <br/>
-.......... 
+..........
 
 In this example, an X-MAS pattern appears **9 times**.
 
