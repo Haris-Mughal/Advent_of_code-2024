@@ -20,7 +20,8 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 5   | Print Queue               | ✅ `6949`          | ✅ `4145`            | ⭐⭐         |
 | 6   | Guard Gallivant           | ✅ `4778`          | ✅ `1618`            | ⭐⭐         |
 | 7   | Bridge Repair             | ✅ `2654749936343` | ✅ `124060392153684` | ⭐⭐         |
-| 8   | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
+| 8   | Resonant Collinearity     | ✅ `301`           | ✅ `1019`            | ⭐⭐         |
+| 9   | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
 | ... | _More Days Unlock Daily!_ | 🚧                 | 🚧                   | ❌           |
 
 ---
