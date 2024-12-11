@@ -23,7 +23,8 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 8   | Resonant Collinearity     | ✅ `301`           | ✅ `1019`            | ⭐⭐         |
 | 9   | Disk Fragmenter           | ✅ `6435922584968` | ✅ `6469636832766`   | ⭐⭐         |
 | 10  | Hoof It                   | ✅ `789`           | ✅ `1735`            | ⭐⭐         |
-| 11  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
+| 11  | Plutonian Pebbles         | ✅ `172484`        | ✅ `205913561055242` | ⭐⭐         |
+| 12  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
 | ... | _More Days Unlock Daily!_ | 🚧                 | 🚧                   | ❌           |
 
 ---
@@ -32,8 +33,8 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/advent-of-code-2024.git
-    cd advent-of-code-2024
+    git clone https://github.com/Haris-Mughal/Advent_of_code-2024.git
+    cd Advent_of_code-2024
     ```
 
-> Made with 🤍 by **Haris Mughal**
+> Made with 🤍 - Code by **Haris Mughal**
