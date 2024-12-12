@@ -24,7 +24,8 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 9   | Disk Fragmenter           | ✅ `6435922584968` | ✅ `6469636832766`   | ⭐⭐         |
 | 10  | Hoof It                   | ✅ `789`           | ✅ `1735`            | ⭐⭐         |
 | 11  | Plutonian Pebbles         | ✅ `172484`        | ✅ `205913561055242` | ⭐⭐         |
-| 12  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
+| 12  | Garden Groups             | ✅ `1471452`       | ✅ `863366`          | ⭐⭐         |
+| 13  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
 | ... | _More Days Unlock Daily!_ | 🚧                 | 🚧                   | ❌           |
 
 ---
