@@ -25,7 +25,9 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 10  | Hoof It                   | ✅ `789`           | ✅ `1735`            | ⭐⭐         |
 | 11  | Plutonian Pebbles         | ✅ `172484`        | ✅ `205913561055242` | ⭐⭐         |
 | 12  | Garden Groups             | ✅ `1471452`       | ✅ `863366`          | ⭐⭐         |
-| 13  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌           |
+| 13  | Claw Contraption          | ✅ `37686`         | ✅ `77204516023437`  | ⭐⭐         |
+| 14  | Restroom Redoubt          | ✅ `224438715`     | ✅ `7603`            | ⭐⭐         |
+| 15  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌❌         |
 | ... | _More Days Unlock Daily!_ | 🚧                 | 🚧                   | ❌           |
 
 ---
