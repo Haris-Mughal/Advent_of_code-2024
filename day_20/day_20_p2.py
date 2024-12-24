@@ -93,7 +93,6 @@ def find_cheats(
     savings = {}
     height, width = len(grid), len(grid[0])
 
-    # For each possible cheat start position
     for y1 in range(height):
         for x1 in range(width):
             if grid[y1][x1] == "#":
@@ -102,17 +101,13 @@ def find_cheats(
             if pos1 not in normal_distances:
                 continue
 
-            # Find all positions reachable within MAX_CHEAT_LENGTH steps while cheating
             reachable = find_reachable_positions(grid, pos1, MAX_CHEAT_LENGTH)
 
-            # For each reachable position that's on a valid path
             for pos2, cheat_length in reachable.items():
                 if grid[pos2[0]][pos2[1]] == "#":
                     continue
 
-                # If we can reach both positions in normal path
                 if pos1 in normal_distances and pos2 in normal_distances:
-                    # Calculate time saved
                     normal_time = normal_distances[end]
                     cheat_time = (
                         normal_distances[pos1]
@@ -130,23 +125,19 @@ def find_cheats(
 def solve(grid: List[str]) -> int:
     start, end = find_start_end(grid)
 
-    # Replace S and E with . for easier processing
     grid = [row.replace("S", ".").replace("E", ".") for row in grid]
 
-    # Find normal shortest path distances
     normal_distances = shortest_path(grid, start, end)
 
-    # Find all possible cheats and their time savings
     savings = find_cheats(grid, normal_distances, start, end)
 
-    # Count cheats that save at least 100 picoseconds
     return sum(count for saved, count in savings.items() if saved >= 100)
 
 
 def main():
-    grid = read_input("inputs/d20input.txt")
+    grid = read_input("day_20.in")
     result = solve(grid)
-    print(f"Number of cheats saving at least 100 picoseconds: {result}")
+    print(result)
 
 
 if __name__ == "__main__":

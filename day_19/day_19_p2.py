@@ -1,19 +1,17 @@
 from collections import defaultdict, deque
 
-
 def read_input(file_path):
     with open(file_path, "r") as file:
         lines = file.read().strip().split("\n")
 
-    # Separate towel patterns and desired designs
+    
     towel_patterns = lines[0].split(", ")
-    designs = lines[2:]  # Skip the blank line and get designs
+    designs = lines[2:] 
 
     return towel_patterns, designs
 
 
 def count_ways_to_form_design(design, towel_patterns):
-    # Perform a DFS to count all ways to create the design using the patterns
     memo = {}
 
     def dfs(remaining):
@@ -44,9 +42,7 @@ def total_ways_to_form_designs(file_path):
     return total_ways
 
 
-# Input file path
 file_path = "day_19.in"
 
-# Count and print the total number of ways to form all designs
 result = total_ways_to_form_designs(file_path)
-print(f"Total number of ways to form all designs: {result}")
+print(result)

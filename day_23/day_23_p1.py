@@ -36,7 +36,8 @@ def main():
     graph = build_graph(connections)
     triangles = find_triangles(graph)
     filtered_triangles = filter_triangles(triangles)
-    print(f'Number of sets of three inter-connected computers containing at least one computer starting with "t": {len(filtered_triangles)}')
+    result = len(filtered_triangles)
+    print(result)
 
 if __name__ == "__main__":
     main()

@@ -44,7 +44,7 @@ def main():
     graph = build_graph(connections)
     largest_clique = find_largest_clique(graph)
     password = ','.join(largest_clique)
-    print(f'The password to the LAN party is: {password}')
+    print(password)
 
 if __name__ == "__main__":
     main()

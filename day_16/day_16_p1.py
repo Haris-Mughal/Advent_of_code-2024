@@ -1,5 +1,3 @@
-"""2024 aoc16"""
-
 with open("day_16.in", "r", encoding="utf-8") as f:
     input_list = f.read().splitlines()
 

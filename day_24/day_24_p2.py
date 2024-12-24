@@ -23,7 +23,6 @@ def swapANDJoinWires():
         n = str(i).zfill(2)
         m1, n1, r1, z1, c1 = None, None, None, None, None
 
-        # Half adder logic
         m1 = find(f"x{n}", f"y{n}", "XOR", data[1])
         n1 = find(f"x{n}", f"y{n}", "AND", data[1])
 
@@ -59,4 +58,4 @@ def swapANDJoinWires():
     return ",".join(sorted(swapped))
 
 
-print("Part 2", swapANDJoinWires())
+print(swapANDJoinWires())

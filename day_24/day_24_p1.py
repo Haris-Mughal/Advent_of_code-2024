@@ -58,7 +58,7 @@ def simulate_system(initial_values, gates):
             else:
                 new_remaining_gates.append(gate)
         if len(new_remaining_gates) == len(remaining_gates):
-            # No progress was made, meaning there may be a dependency issue.
+
             break
         remaining_gates = new_remaining_gates
     

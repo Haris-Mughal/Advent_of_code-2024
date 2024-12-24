@@ -1,11 +1,8 @@
 from collections import deque
 
-
 def simulate_falling_bytes(grid_size, corrupted_coords, max_bytes):
-    # Initialize the grid
     grid = [["." for _ in range(grid_size)] for _ in range(grid_size)]
 
-    # Mark corrupted positions in the grid
     for x, y in corrupted_coords[:max_bytes]:
         grid[y][x] = "#"
 
@@ -17,24 +14,20 @@ def find_shortest_path(grid):
     start = (0, 0)
     end = (grid_size - 1, grid_size - 1)
 
-    # BFS initialization
-    queue = deque([(start, 0)])  # (current_position, steps)
+    
+    queue = deque([(start, 0)])
     visited = set()
     visited.add(start)
 
-    # BFS loop
     while queue:
         (x, y), steps = queue.popleft()
 
-        # Check if we've reached the end
         if (x, y) == end:
             return steps
 
-        # Explore neighbors
         for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
             nx, ny = x + dx, y + dy
 
-            # Check bounds and validity
             if (
                 0 <= nx < grid_size
                 and 0 <= ny < grid_size
@@ -44,7 +37,6 @@ def find_shortest_path(grid):
                 visited.add((nx, ny))
                 queue.append(((nx, ny), steps + 1))
 
-    # If no path found
     return -1
 
 
@@ -71,12 +63,10 @@ if __name__ == "__main__":
     input_file = "day_18.in"
     corrupted_coords = read_input(input_file)
 
-    grid_size = 71  # Actual grid size
+    grid_size = 71  
 
-    # Find the first blocking byte
     blocking_byte = find_blocking_byte(grid_size, corrupted_coords)
 
-    # Print the result
     if blocking_byte:
         print(f"{blocking_byte[0]},{blocking_byte[1]}")
     else:
