@@ -47,18 +47,17 @@ for _ in range(1000):
             if end in temp:
                 all_paths.append(temp)
     paths = temp_paths
-answer1 = min(
+score = min(
     visited.get((end, (0, 1)), max(visited.values())),
     visited.get((end, (0, -1)), max(visited.values())),
     visited.get((end, (1, 0)), max(visited.values())),
     visited.get((end, (-1, 0)), max(visited.values())),
 )
-print("Answer 1:", answer1)
 
-best_paths = [x for x in all_paths if x[0] == answer1]
+best_paths = [x for x in all_paths if x[0] == score]
 best_tiles = set()
 for best_path in best_paths:
     for path in best_path[2:]:
         best_tiles.add(path)
-answer2 = len(best_tiles)
-print("Answer 2:", answer2)
+result = len(best_tiles)
+print(result)

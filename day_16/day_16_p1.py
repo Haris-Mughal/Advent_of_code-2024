@@ -1,64 +1,69 @@
-with open("day_16.in", "r", encoding="utf-8") as f:
-    input_list = f.read().splitlines()
+import heapq
 
-answer1 = 0
-answer2 = 0
+def parse_input(file_name):
+    with open(file_name, 'r') as f:
+        maze = [line.strip() for line in f.readlines()]
+    return maze
 
-start = (0, 0)
-end = (0, 0)
-reindeer = ()
-maze = {}
-cur_dir = (0, 1)
-for i, line in enumerate(input_list):
-    for j, char in enumerate(line):
-        maze[(i, j)] = char
-        if char == "S":
-            start = (i, j)
-            reindeer = (i, j)
-        if char == "E":
-            end = (i, j)
+def find_positions(maze):
+    start = end = None
+    for r, row in enumerate(maze):
+        for c, cell in enumerate(row):
+            if cell == 'S':
+                start = (r, c)
+            elif cell == 'E':
+                end = (r, c)
+    return start, end
 
-visited = dict()
-paths = [[0, cur_dir, start]]
-all_paths = []
-for _ in range(1000):
-    temp_paths = []
-    for path in sorted(paths):
-        score = path[0]
-        cur_dir = path[1]
-        x, y = path[-1]
-        for i, j in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
-            if (x + i, y + j) not in maze:
-                continue
-            if maze[(x + i, y + j)] == "#":
-                continue
-            temp = list(path)
-            temp.append((x + i, y + j))
-            temp[1] = (i, j)
-            temp[0] += 1
-            if cur_dir != (i, j):
-                temp[0] += 1000
-            if ((x + i, y + j), (i, j)) in visited and visited[
-                ((x + i, y + j), (i, j))
-            ] < temp[0]:
-                continue
-            visited[((x + i, y + j), (i, j))] = temp[0]
-            temp_paths.append(temp)
-            if end in temp:
-                all_paths.append(temp)
-    paths = temp_paths
-answer1 = min(
-    visited.get((end, (0, 1)), max(visited.values())),
-    visited.get((end, (0, -1)), max(visited.values())),
-    visited.get((end, (1, 0)), max(visited.values())),
-    visited.get((end, (-1, 0)), max(visited.values())),
-)
-print("Answer 1:", answer1)
+def neighbors(position, direction, maze):
+    r, c = position
+    directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]  # East, South, West, North
+    forward_r, forward_c = directions[direction]
+    forward_pos = (r + forward_r, c + forward_c)
 
-best_paths = [x for x in all_paths if x[0] == answer1]
-best_tiles = set()
-for best_path in best_paths:
-    for path in best_path[2:]:
-        best_tiles.add(path)
-answer2 = len(best_tiles)
-print("Answer 2:", answer2)
+    neighbors = []
+
+    # Forward move
+    if 0 <= forward_pos[0] < len(maze) and 0 <= forward_pos[1] < len(maze[0]) and maze[forward_pos[0]][forward_pos[1]] != '#':
+        neighbors.append((forward_pos, direction, 1))
+
+    # Rotations
+    neighbors.append(((r, c), (direction - 1) % 4, 1000))  # Counterclockwise rotation
+    neighbors.append(((r, c), (direction + 1) % 4, 1000))  # Clockwise rotation
+
+    return neighbors
+
+def heuristic(pos1, pos2):
+    return abs(pos1[0] - pos2[0]) + abs(pos1[1] - pos2[1])
+
+def a_star(maze, start, end):
+    start_state = (start, 0)  # Position and direction (0: East)
+    priority_queue = [(0, start_state)]  # (cost, (position, direction))
+    visited = set()
+    
+    while priority_queue:
+        cost, (position, direction) = heapq.heappop(priority_queue)
+        
+        if position == end:
+            return cost
+
+        if (position, direction) in visited:
+            continue
+
+        visited.add((position, direction))
+
+        for next_position, next_direction, move_cost in neighbors(position, direction, maze):
+            if (next_position, next_direction) not in visited:
+                total_cost = cost + move_cost
+                heapq.heappush(priority_queue, (total_cost, (next_position, next_direction)))
+
+    return float('inf')  # If no path found
+
+def main():
+    maze = parse_input('day_16.in')
+    start, end = find_positions(maze)
+    lowest_score = a_star(maze, start, end)
+    print(f"The lowest score a Reindeer could possibly get: {lowest_score}")
+
+if __name__ == "__main__":
+    main()
