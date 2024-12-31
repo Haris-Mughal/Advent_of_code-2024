@@ -1,31 +1,54 @@
-from re import findall
-a, b, c, *prog = [int(n) for n in findall("(\d+)", open("day_17.in").read())]
+import re
 
-def run(prog, a):
-    ip, b, c, out = 0, 0, 0, []
-    while ip>=0 and ip<len(prog):
-        lit, combo = prog[ip+1], [0,1,2,3,a,b,c,99999][prog[ip+1]]
-        match prog[ip]:
-            case 0: a = int(a / 2**combo)      
-            case 1: b = b ^ lit                
-            case 2: b = combo % 8              
-            case 3: ip = ip if a==0 else lit-2 
-            case 4: b = b ^ c              
-            case 5: out.append(combo % 8)  
-            case 6: b = int(a / 2**combo)  
-            case 7: c = int(a / 2**combo)  
-        ip+=2
-    return out
-print("Part 1:", ",".join(str(n) for n in run(prog, a)))
 
-target = prog[::-1]
-def find_a(a=0, depth=0):
-    if depth == len(target):
-        return a
-    for i in range(8):
-        output = run(prog, a*8 + i)
-        if output and output[0] == target[depth]:
-            if result := find_a((a*8 + i), depth+1): 
-                return result
-    return 0
-print("Part 2:", find_a())
+def part2(puzzle_input):
+    register, program = puzzle_input.split('\n\n')
+    _, B, C = map(int, re.findall(r'\d+', register))
+    program = [int(i) for i in re.findall(r'\d+', program)]
+    n = len(program)
+
+    def run_program(A):
+
+        def combo(operand):
+            if operand == 4:
+                return register['A']
+            if operand == 5:
+                return register['B']
+            if operand == 6:
+                return register['C']
+            return operand
+
+        register = dict(A=A, B=B, C=C)
+        i = 0
+        out = []
+        while i < n:
+            opcode, operand = program[i:i+2]
+            match opcode:
+                case 0:
+                    register['A'] >>= combo(operand)
+                case 1:
+                    register['B'] ^= operand
+                case 2:
+                    register['B'] = combo(operand) % 8
+                case 3:
+                    if register['A']:
+                        i = operand - 2
+                case 4:
+                    register['B'] ^= register['C']
+                case 5:
+                    out.append(combo(operand) % 8)
+                case 6:
+                    register['B'] = register['A'] >> combo(operand)
+                case 7:
+                    register['C'] = register['A'] >> combo(operand)
+            i += 2
+
+        return out
+
+    A = 0
+    for i in reversed(range(n)):
+        A <<= 3
+        while run_program(A) != program[i:]:
+            A += 1
+
+    return A

@@ -16,16 +16,4 @@ def run(prog, a):
             case 7: c = int(a / 2**combo)      
         ip+=2
     return out
-print("Part 1:", ",".join(str(n) for n in run(prog, a)))
-
-target = prog[::-1]
-def find_a(a=0, depth=0):
-    if depth == len(target):
-        return a
-    for i in range(8):
-        output = run(prog, a*8 + i)
-        if output and output[0] == target[depth]:
-            if result := find_a((a*8 + i), depth+1): 
-                return result
-    return 0
-print("Part 2:", find_a())
+print(",".join(str(n) for n in run(prog, a)))
