@@ -30,6 +30,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 15  | Warehouse Woes          | ✅ `1406628`     | ✅ `9021`            | ⭐⭐         |
 | 16  | Reindeer Maze          | ✅ `72400`     | ✅ `435`            | ⭐⭐         |
 | 17  | Chronospatial Computer          | ✅ `1,5,3,0,2,5,2,5,3`     | ✅ `108107566389757`            | ⭐⭐         |
+| 17  | RAM Run          | ✅ `356`     | ✅ `22,33`            | ⭐⭐         |
 
 ---
 
