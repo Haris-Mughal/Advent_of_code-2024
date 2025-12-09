@@ -29,7 +29,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 14  | Restroom Redoubt          | ✅ `224438715`     | ✅ `7603`            | ⭐⭐         |
 | 15  | Warehouse Woes          | ✅ `1406628`     | ✅ `9021`            | ⭐⭐         |
 | 16  | Reindeer Maze          | ✅ `72400`     | ✅ `435`            | ⭐⭐         |
-| 16  | Reindeer Maze          | ✅ `72400`     | ✅ `435`            | ⭐⭐         |
+| 17  | Chronospatial Computer          | ✅ `1,5,3,0,2,5,2,5,3`     | ✅ `108107566389757`            | ⭐⭐         |
 
 ---
 
