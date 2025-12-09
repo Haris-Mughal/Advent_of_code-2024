@@ -37,6 +37,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 22  | Monkey Market          | ✅ `14691757043`     | ✅ `1831`            | ⭐⭐         |
 | 23  | LAN Party          | ✅ `1366`     | ✅ `bs,cf,cn,gb,gk,jf,mp,qk,qo,st,ti,uc,xw`            | ⭐⭐         |
 | 24  | Crossed Wires          | ✅ `45213383376616`     | ✅ `cnk,mps,msq,qwf,vhm,z14,z27,z39`            | ⭐⭐         |
+| 25  | Code Chronicle          | ✅ `3133`     | ✅ **STAR**            | ⭐⭐         |
 
 ---
 
