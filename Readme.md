@@ -35,6 +35,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 20  | Race Condition          | ✅ `1524`     | ✅ `595975512785325`            | ⭐⭐         |
 | 21  | Keypad Conundrum          | ✅ `179444`     | ✅ `595975512785325`            | ⭐⭐         |
 | 22  | Monkey Market          | ✅ `14691757043`     | ✅ `1831`            | ⭐⭐         |
+| 23  | LAN Party          | ✅ `1366`     | ✅ `bs,cf,cn,gb,gk,jf,mp,qk,qo,st,ti,uc,xw`            | ⭐⭐         |
 
 ---
 
