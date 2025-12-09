@@ -41,12 +41,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 
 ---
 
-## 🚀 How to Run
+# 🚀 Follow me on Github :)
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/Haris-Mughal/Advent_of_code-2024.git
-    cd Advent_of_code-2024
-    ```
 
-> Made with 🤍 - Code by **Haris Mughal**
+## Made with 🤍 - Code by **Haris Mughal**
