@@ -27,8 +27,9 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 12  | Garden Groups             | ✅ `1471452`       | ✅ `863366`          | ⭐⭐         |
 | 13  | Claw Contraption          | ✅ `37686`         | ✅ `77204516023437`  | ⭐⭐         |
 | 14  | Restroom Redoubt          | ✅ `224438715`     | ✅ `7603`            | ⭐⭐         |
-| 15  | coming soon               | 🚧 In Progress     | 🚧 In Progress       | ❌❌         |
-| ... | _More Days Unlock Daily!_ | 🚧                 | 🚧                   | ❌           |
+| 15  | Warehouse Woes          | ✅ `1406628`     | ✅ `9021`            | ⭐⭐         |
+| 16  | Reindeer Maze          | ✅ `72400`     | ✅ `435`            | ⭐⭐         |
+| 16  | Reindeer Maze          | ✅ `72400`     | ✅ `435`            | ⭐⭐         |
 
 ---
 
