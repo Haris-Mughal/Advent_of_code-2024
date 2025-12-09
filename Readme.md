@@ -32,6 +32,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 17  | Chronospatial Computer          | ✅ `1,5,3,0,2,5,2,5,3`     | ✅ `108107566389757`            | ⭐⭐         |
 | 18  | RAM Run          | ✅ `356`     | ✅ `22,33`            | ⭐⭐         |
 | 19  | Linen Layout          | ✅ `242`     | ✅ `595975512785325`            | ⭐⭐         |
+| 20  | Race Condition          | ✅ `1524`     | ✅ `595975512785325`            | ⭐⭐         |
 
 ---
 
