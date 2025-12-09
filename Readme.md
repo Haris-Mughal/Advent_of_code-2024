@@ -33,6 +33,7 @@ Advent of Code is an annual event featuring daily programming puzzles during Dec
 | 18  | RAM Run          | ✅ `356`     | ✅ `22,33`            | ⭐⭐         |
 | 19  | Linen Layout          | ✅ `242`     | ✅ `595975512785325`            | ⭐⭐         |
 | 20  | Race Condition          | ✅ `1524`     | ✅ `595975512785325`            | ⭐⭐         |
+| 21  | Keypad Conundrum          | ✅ `179444`     | ✅ `595975512785325`            | ⭐⭐         |
 
 ---
 
